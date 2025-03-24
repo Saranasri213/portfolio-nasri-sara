@@ -140,7 +140,21 @@ nav .nav li a:hover {
 
 .btn-group {
     margin: 45px 0;
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    justify-content: space-between;
 }
+
+.btn-group .btn {
+    font-size: 1.2rem; /* Augmente la taille de la police */
+    padding: 10px 20px; /* Ajoute du padding autour du texte */
+    width: 100%; /* Ajuste la largeur des boutons */
+    text-align: center; /* Centre le texte */
+    border: 1px solid #ccc; /* Ajoute une bordure pour mieux voir les boutons */
+    background-color: #f0f0f0; /* Ajoute un fond pour mieux voir les boutons */
+}
+
 
 .btn.active {
     border-color: #0ef;
